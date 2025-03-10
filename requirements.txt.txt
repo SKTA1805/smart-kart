@@ -1,0 +1,9 @@
+
+body-parser
+cors
+dotenv
+express
+jspdf
+jspdf-autotable
+razorpay
+ws
