@@ -24,7 +24,7 @@ function goBackToWelcome() {
 
 // Existing WebSocket functionality
 
-const socket = new WebSocket("ws://smart-kart.onrender.com"); // Connect WebSocket to the server
+const socket = new WebSocket("wss://smart-kart.onrender.com"); // Connect WebSocket to the server
 
 
 
