@@ -46,7 +46,7 @@ async function fetchCart() {
 
     try {
 
-        const response = await fetch("http://smart-kart.onrender.com/cart"); // Replace with your server IP
+        const response = await fetch("https://smart-kart.onrender.com/cart"); // Replace with your server IP
 
         const cart = await response.json();
 
@@ -114,7 +114,7 @@ async function removeItem(tag) {
 
     try {
 
-        const response = await fetch(`http://smart-kart.onrender.com/remove-item`, {
+        const response = await fetch(`https://smart-kart.onrender.com/remove-item`, {
 
             method: "POST",
 
@@ -150,7 +150,7 @@ async function generateBill() {
 
     try {
 
-        const response = await fetch("http://smart-kart.onrender.com/generate-bill");
+        const response = await fetch("https://smart-kart.onrender.com/generate-bill");
 
         const blob = await response.blob();
 
